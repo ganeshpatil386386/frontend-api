@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 // API URL - will be replaced with your Render backend URL after deployment
-const API_URL = import.meta.env.VITE_API_URL || 'https://backend-api-4g4s.onrender.com';
+const API_URL = 'https://backend-api-4g4s.onrender.com';
 
 function App() {
   const [inputValue, setInputValue] = useState('')
